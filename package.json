@@ -1,0 +1,20 @@
+{
+  "name": "automation-testing",
+  "version": "1.0.0",
+  "description": "Maestrano Automation Testing",
+  "dependencies": {
+    "protractor": "^5.1.2",
+    "protractor-jasmine2-screenshot-reporter": "^0.3.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "postinstall" : "webdriver-manager update",
+    "start-webdriver" : "webdriver-manager start",
+    "tests": "protractor regression/conf_local.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexnoox/automation-testing.git"
+  },
+  "homepage": "https://github.com/alexnoox/automation-testing#readme"
+}
